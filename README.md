@@ -10,11 +10,11 @@ Bring up the docker container
 
 ```docker-compose up```
 
-Navigate to `<PI_IP_ADDRESS>:8000` and configure your server
+Navigate to ``<PI_IP_ADDRESS>:8000`` and configure your server
 
 commit your changes to your forked project to preserve them in the event of system failure.
 
-```git add --all
-   git commit -m "initial configuration"```
+```git add --all```
+   ```git commit -m "initial configuration"```
 
 
