@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  craftbeerpi:
+    image: ghcr.io/pibrewing/craftbeerpi4:v4.6.1
+    privileged: true
+    user: root
+    command: bash -c "pip3 uninstall -y RPi.GPIO && pip3 install rpi-lgpio && cbpi start"  
+    volumes:
+      - "./config:/cbpi/config"
+    ports:
+      - 8000:8000
