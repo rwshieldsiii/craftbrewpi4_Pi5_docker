@@ -15,6 +15,7 @@ Navigate to ``<PI_IP_ADDRESS>:8000`` and configure your server
 commit your changes to your forked project to preserve them in the event of system failure.
 
 ```git add --all```
+
    ```git commit -m "initial configuration"```
 
 
